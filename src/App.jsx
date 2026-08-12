@@ -1,29 +1,24 @@
-import './App.css'
-import Blogs from './components/Blogs/Blogs.jsx'
-import Navbar from './components/Navbar/Navbar.jsx'
+import "./App.css";
+import Blogs from "./components/Blogs/Blogs.jsx";
+import Navbar from "./components/Navbar/Navbar.jsx";
 
 function App() {
-
-
   return (
     <>
-      <Navbar> </Navbar >
-      
+      <Navbar> </Navbar>
 
       <div className="main-container flex">
         <div className="left-container w-[70%]">
-
-<Blogs> </Blogs>
+          <Blogs> </Blogs>
         </div>
 
         <div className="right-container w-[30%] ">
-right-Container
+          <h1>Reading Time : 0</h1>
+          <h1>Bookmarks : 0 </h1>
         </div>
       </div>
-
-
     </>
-  )
+  );
 }
 
-export default App
+export default App;
